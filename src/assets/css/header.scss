@@ -1,0 +1,78 @@
+@import "../css/color.scss";
+
+.main-container{
+  width: 100%;
+  margin: 0px;
+}
+.top-nav{
+  background-color: $color-top-nav-bg;
+  color: $color-white;
+  .logo{
+    padding: 10px 6.5%;
+    font-size: 25px;
+  }
+  .logo-img{
+    height: 25px;
+  }
+}
+.header{
+  display: flex;
+  nav{
+    width: 70%;
+    margin: 10px 0px;
+    .nav-menu{
+      display: flex;
+      justify-content: space-evenly;
+      list-style-type: none;
+      margin: 15px 0px !important;
+      a{
+        padding: 5px 10px !important;
+      }
+      .active{
+        background-color: rgb(228, 240, 255);
+        border-radius: 5px;
+        a{
+          color: $color-brand !important;
+        }
+      }
+      a{
+        color: $color-text1;
+        text-decoration: none;
+      }
+    }
+  }
+  .link-icon{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+    .box{
+      height: 35px;
+      width: 40px;
+      margin: 10px;
+    }
+    .icon{
+      font-size: 24px; 
+      opacity: 0.4;
+    }
+    .box-1{
+      background-color: rgb(233, 251, 246);
+    }
+    .box-2{
+      background-color: rgb(255, 246, 238);
+    }
+    .box-3{
+      background-color: rgb(237, 246, 255);
+    }
+    .box-4{
+      background-color: rgb(255, 236, 254);
+    }
+  }
+}
+.banner-img{
+  height: 100%;
+  width: 100%;
+  img{
+    width: 100%;
+  }
+}

@@ -1,0 +1,17 @@
+@import "../css/color";
+
+.save{
+	background-color: rgb(90, 221, 75);
+	border: none;
+	margin: 5px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: $color_white;
+}
+.cancel{
+	background-color: $color_white;
+	border: none;
+	margin: 5px;
+	padding: 5px 10px;
+	border-radius: 5px;
+}

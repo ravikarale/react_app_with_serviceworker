@@ -1,0 +1,149 @@
+@import "../css/color.scss";
+
+
+.search-section{
+    height: 80px;
+    border-bottom: solid 1px $color-header-line;
+    background-color: rgb(242, 243, 249);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px 10px 20px;
+    .breadcum{
+      span{
+        font-size: 14px;
+        padding: 0px 5px;
+        color: rgb(78, 178, 237);
+      }
+    }
+    .input-search{
+      border-radius: 30px;
+      width: 200px;
+      border: solid 1px $color-header-line;
+    }
+    .date-select{
+      display: flex;
+      font-size: 14px;
+      padding: 3px 8px;
+      border-radius: 5px;
+      background-color: rgb(231, 233, 242);
+      .date{
+        font-size: 14px;
+        padding: 0px 5px;
+        color: rgb(78, 178, 237);
+      }
+    }
+}
+.layout{
+  background-color: rgb(242, 243, 249);
+  padding: 0px 5%;
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .boxes{
+      height: 180px;
+      display: flex;
+      margin: 60px 0px 20px 0px;
+      .title{
+        font-size: 16px;
+        font-weight: 500;
+        padding: 20px;
+        border-bottom: solid 1px rgb(242, 243, 249);
+      }
+      .sm-text{
+        font-size: 10px;
+      }
+      .box-1{
+        background-color: $color-white;
+        border-top: solid 4px rgb(255, 143, 0);
+        width: 50%;
+        border-radius: 5px;
+        margin: 0px 10px;
+        .box{
+          padding: 20px;
+          .digit{
+            font-size: 25px;
+            color: rgb(255, 143, 0);
+          }
+        }
+      }
+      .box-2{
+        background-color: $color-white;
+        border-top: solid 4px rgb(66, 219, 55);
+        width: 50%;
+        border-radius: 5px;
+        margin: 0px 10px;
+        .box{
+          padding: 20px;
+          .digit{
+            font-size: 25px;
+            color: rgb(66, 219, 55);
+          }
+        }
+      }
+      .box-3{
+        background-color: $color-white;
+        border-top: solid 4px rgb(0, 130, 228);
+        width: 50%;
+        border-radius: 5px;
+        margin: 0px 10px;
+        .box{
+          padding: 20px;
+          .digit{
+            font-size: 25px;
+            color: rgb(0, 130, 228);
+          }
+        }
+      }
+      .box-4{
+        background-color: $color-white;
+        border-top: solid 4px rgb(151, 1, 205);
+        width: 50%;
+        border-radius: 5px;
+        margin: 0px 10px;
+        .box{
+          padding: 20px;
+          .digit{
+            font-size: 25px;
+            color: rgb(151, 1, 205);
+          }
+        }
+      }
+    }
+    .table-bg{
+      margin: 0px 10px;
+      .table{
+        margin-bottom: 1.5rem !important;
+        thead{
+          tr:nth-child(odd) {
+            background-color: rgb(252, 252, 253)
+          }
+          tr{
+            span{
+              opacity: 0.5;
+              padding: 0px 5px;
+            }
+          }
+        }
+        tbody{
+          tr:nth-child(odd)  {
+            background-color: $color-white;
+          }
+          tr:nth-child(even)  {
+            background-color: rgb(252, 252, 253);
+          }
+        }
+      }
+      .table-title{
+        padding: 10px 25px  25px 25px;
+      }
+    }
+    .sp-10{
+      background-color: $color-white;
+      border-radius: 5px;
+      padding-top: 15px;
+    }
+  }
+}
+.border-top-2px{
+  border-top: solid 2px;
+}

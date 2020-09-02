@@ -1,0 +1,198 @@
+@import "../css/color";
+@import "../css/style";
+
+.search-section{
+  height: 80px;
+  border-bottom: solid 1px $color-header-line;
+  background-color: rgb(242, 243, 249);
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px 10px 20px;
+  .breadcum{
+    span{
+      font-size: 14px;
+      padding: 0px 5px;
+      color: rgb(78, 178, 237);
+    }
+  }
+  .input-search{
+    border-radius: 30px;
+    width: 200px;
+    border: solid 1px $color-header-line;
+  }
+  .right-section{
+    display: flex !important;
+    font-size: 14px;
+    padding: 3px 8px;
+    border-radius: 5px;
+    .tabs{
+      padding: 0px 30px;
+      span{
+        padding: 0px 10px;
+      }
+    }
+    .icons{
+      padding: 0px 10px;
+      span{
+        padding: 0px 10px;
+      }
+    }
+  }
+  .tabs{
+    a{
+      padding: 0px 10px;
+    }
+  }
+}
+.tab-section{
+  height: 60px;
+  border-bottom: solid 1px $color-header-line;
+  background-color: rgb(242, 243, 249);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 20px 10%;
+  .right-section{
+    display: flex !important;
+    font-size: 14px;
+    padding: 3px 8px;
+    border-radius: 5px;
+    .tabs{
+      padding: 0px 30px;
+      span{
+        padding: 0px 10px;
+      }
+    }
+    .icons{
+      padding: 0px 10px;
+      span{
+        padding: 0px 10px;
+      }
+    }
+  }
+  .tabs{
+    a{
+      padding: 0px 20px;
+      color: $color-text1;
+    }
+    .active{
+      color: $color-brand !important;
+      text-decoration: underline;
+    }
+  }
+  .left-icons{
+    display: flex;
+    .icons{
+      span{
+        padding: 0px 10px;
+      }
+    }
+    .profile{
+      background-color: $color-header-line;
+      height: 30px;
+      width: 30px;
+      border-radius: 20px;
+      margin: 0px 20px;
+    }
+  }
+}
+.border-top-2px{
+  border-top: solid 2px;
+}
+.menu-layout{
+  background-color: rgb(242, 243, 249);
+  padding: 0px;
+  height: 100vh;
+  width: 100%;
+  display: flex !important;
+  .menu-sidebar{
+    width: 28%;
+    padding: 20px;
+    .label-tag{
+      background-color: rgb(221, 218, 221);
+      color: #231f20;
+      padding: 10px;
+      font-weight: 500;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      .checkbox{
+        label{
+          padding: 0px 10px;
+          margin-bottom: 0px;
+        }
+      }
+      .icons{
+        display: flex;
+        span{
+          padding: 5px;
+          i{
+            color: rgb(157, 160, 161);
+          }
+        }
+        .chain{
+          transform: rotate(80deg);
+        }
+      }
+    }
+
+    .menu-items{
+      margin: 10px 0px;
+      .item{
+        padding: 10px;
+        margin: 5px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        background-color: $color-white;
+        border-left: solid 2px $color-brand;
+        cursor: pointer;
+        .checkbox{
+          label{
+            padding: 0px 10px;
+          }
+        }
+        .icons{
+          display: flex;
+          span{
+            padding: 5px;
+            i{
+              color: rgb(157, 160, 161);
+            }
+          }
+          .chain{
+            transform: rotate(80deg);
+          }
+        }
+      }
+    }
+  }
+  .menu-container{
+    width: 72%;
+    margin: 20px 10px;
+    .header{
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      background-color: rgb(221, 218, 221);
+      color: #231f20;
+      padding: 5px;
+      .title{
+        display: flex;
+        padding: 0px 10px;
+        span{
+          padding: 0px 10px;
+        }
+      }
+      .btns{
+        button{
+          min-width: 150px;
+        }
+      }
+    }
+    .edit-form{
+      background-color: $color-white;
+      margin: 10px 0px;
+      height: 100vh;
+    }
+  }
+}

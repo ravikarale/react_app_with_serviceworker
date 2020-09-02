@@ -1,0 +1,159 @@
+@import "../css/color.scss";
+
+.search-section{
+  height: 80px;
+  border-bottom: solid 1px $color-header-line;
+  background-color: rgb(242, 243, 249);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px 10px 20px;
+  .breadcum{
+    span{
+      font-size: 14px;
+      padding: 0px 5px;
+      color: rgb(78, 178, 237);
+    }
+  }
+  .tabs{
+    padding: 0px 30px;
+    span{
+      padding: 0px 20px;
+    }
+    .active{
+      background-color: rgb(233, 231, 242);
+      border: solid 1px rgb(233, 231, 242);
+      border-radius: 5px;
+      color: $color-brand;
+      padding: 5px 10px;
+    }
+  }
+  .right-section{
+    display: flex !important;
+    height: 35px;
+    .rouded-btn-1{
+      border-radius: 20px;
+      padding: 7px 20px;
+      margin: 0px 10px;
+      border-radius: 20px;
+      height: 35px;
+      background-color: rgb(160, 162, 165);
+    }
+    .rouded-btn-2{
+      border-radius: 20px;
+      margin: 0px 10px;
+      padding: 7px 20px;
+      border-radius: 20px;
+      height: 35px;
+      background-color: rgb(0, 183, 255);
+    }
+  }
+}
+
+.report-layout{
+  background-color: rgb(242, 243, 249);
+  padding: 0px;
+  width: 100%;
+  display: flex !important;
+  .report-sidebar{
+    width: 22%;
+    padding: 20px;
+    .label-tag{
+      background-color: rgb(160, 162, 165);
+      color: $color-white;
+      padding: 10px 30px;
+      font-weight: 700;
+    }
+    .reports-items{
+      margin: 10px 0px;
+      .item{
+        padding: 10px 30px;
+        margin: 5px 0px;
+        cursor: pointer;
+      }
+      .active{
+        background-color: $color-white;
+        color: $color-brand;
+        border-left: solid 2px $color-brand;
+      }
+    }
+    .date-time-tag{
+      margin: 20px 0px;
+      .items{
+        display: flex;
+        justify-content: center;
+        padding: 10px 0px;
+        .item{
+          min-width: 110px;
+          padding: 10px 15px;
+          margin: 10px;
+          cursor: pointer;
+          background-color: rgb(231, 233, 242);
+        }
+      }
+    }
+    .sort-by-tag{
+      margin: 20px 0px;
+      .items{
+        padding: 10px 0px;
+        .item{
+          padding: 10px 15px;
+          margin: 10px;
+          text-align: center;
+          cursor: pointer;
+        }
+        .active{
+          background-color: rgb(231, 233, 242);
+          color: $color-brand;
+        }
+      }
+    }
+  }
+  .report-container{
+    width: 78%;
+    background-color: $color-white;
+    margin: 20px 10px;
+    .filters{
+      display: flex;
+      justify-content: space-between;
+      border-bottom: solid 1px rgb(242, 243, 249);
+      height: 60px;
+      .title{
+        padding: 15px 30px;
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .tab{
+        height: 60px;
+        display: flex;
+        .item{
+          padding: 15px 20px;
+          border: solid 1px rgb(242, 243, 249);
+          height: 60px;
+        }
+        .active{
+          color: $color-brand;
+        }
+      }
+    }
+    .report-table{
+      padding: 30px 10px;
+      .table{
+        thead{
+          th{
+            span{
+              opacity: 0.4;
+            }
+          }
+        }
+        .action-icons{
+          span{
+            padding: 0px 10px;
+          }
+        }
+      }
+    }
+  }
+}
+.border-top-2px{
+  border-top: solid 2px;
+}
